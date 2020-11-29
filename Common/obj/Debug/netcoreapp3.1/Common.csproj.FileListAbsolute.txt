@@ -6,3 +6,11 @@ C:\Users\PROFESIONAL\source\repos\ArandsSoft\Common\obj\Debug\netcoreapp3.1\Comm
 C:\Users\PROFESIONAL\source\repos\ArandsSoft\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
 C:\Users\PROFESIONAL\source\repos\ArandsSoft\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\PROFESIONAL\source\repos\ArandsSoft\Common\obj\Debug\netcoreapp3.1\Common.pdb
+C:\Pruebas\ArandaSoft\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Pruebas\ArandaSoft\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Pruebas\ArandaSoft\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Pruebas\ArandaSoft\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Pruebas\ArandaSoft\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Pruebas\ArandaSoft\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Pruebas\ArandaSoft\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Pruebas\ArandaSoft\Common\obj\Debug\netcoreapp3.1\Common.pdb

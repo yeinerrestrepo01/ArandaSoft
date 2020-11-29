@@ -13,6 +13,7 @@ namespace DataAccesLayer
         }
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
+        public DbSet<Acciones> Acciones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -58,6 +59,8 @@ namespace DataAccesLayer
                 Estado = "A",
                 FechaCreacion = DateTime.Now,
             });
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

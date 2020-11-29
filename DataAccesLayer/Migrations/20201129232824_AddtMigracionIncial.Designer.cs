@@ -10,21 +10,41 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccesLayer.Migrations
 {
     [DbContext(typeof(ArandaSoftContext))]
-    [Migration("20201129205642_AddInicial")]
-    partial class AddInicial
+    [Migration("20201129232824_AddtMigracionIncial")]
+    partial class AddtMigracionIncial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
+
+            modelBuilder.Entity("Entities.Acciones", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Acciones");
+                });
 
             modelBuilder.Entity("Entities.Roles", b =>
                 {
                     b.Property<int>("RolId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
 
                     b.Property<string>("Estado")
                         .HasMaxLength(1)
@@ -45,28 +65,28 @@ namespace DataAccesLayer.Migrations
                         {
                             RolId = 1,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 15, 56, 41, 498, DateTimeKind.Local).AddTicks(8513),
+                            FechaCreacion = new DateTime(2020, 11, 29, 18, 28, 23, 488, DateTimeKind.Local).AddTicks(773),
                             Nombre = "Visitante"
                         },
                         new
                         {
                             RolId = 2,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(199),
+                            FechaCreacion = new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6297),
                             Nombre = "Asistente"
                         },
                         new
                         {
                             RolId = 3,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(233),
+                            FechaCreacion = new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6341),
                             Nombre = "Editor"
                         },
                         new
                         {
                             RolId = 4,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(237),
+                            FechaCreacion = new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6344),
                             Nombre = "Administrador"
                         });
                 });
@@ -75,7 +95,8 @@ namespace DataAccesLayer.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
 
                     b.Property<string>("Apellidos")
                         .IsRequired()
@@ -140,8 +161,8 @@ namespace DataAccesLayer.Migrations
                             Edad = 20,
                             Email = "tania.forero@arandasoft.com",
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 15, 56, 41, 508, DateTimeKind.Local).AddTicks(5428),
-                            FechaNacimiento = new DateTime(2000, 11, 29, 15, 56, 41, 508, DateTimeKind.Local).AddTicks(2737),
+                            FechaCreacion = new DateTime(2020, 11, 29, 18, 28, 23, 498, DateTimeKind.Local).AddTicks(6542),
+                            FechaNacimiento = new DateTime(2000, 11, 29, 18, 28, 23, 498, DateTimeKind.Local).AddTicks(3098),
                             Nombres = "Tania Lized",
                             Password = "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
                             RolesRolId = 4,

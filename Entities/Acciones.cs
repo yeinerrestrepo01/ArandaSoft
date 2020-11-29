@@ -6,19 +6,12 @@ using System.Text;
 
 namespace Entities
 {
-    public class Roles
+    public class Acciones
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int RolId { get; set; }
-        public string Nombre { get; set; }
-        
-        [MaxLength(1)]
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
         public string Estado { get; set; }
-
-        [Column(TypeName = "datetime")]
-        public DateTime FechaCreacion { get; set; }
-        public virtual ICollection<Usuarios> Usuarios { get; set; }
-
     }
 }

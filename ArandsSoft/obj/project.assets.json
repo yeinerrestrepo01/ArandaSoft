@@ -1553,7 +1553,8 @@
           "Common": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
         },
         "compile": {
           "bin/placeholder/DataAccesLayer.dll": {}

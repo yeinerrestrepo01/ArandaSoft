@@ -3,10 +3,24 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAccesLayer.Migrations
 {
-    public partial class AddInicial : Migration
+    public partial class AddtMigracionIncial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Acciones",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Acciones", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
@@ -57,16 +71,16 @@ namespace DataAccesLayer.Migrations
                 columns: new[] { "RolId", "Estado", "FechaCreacion", "Nombre" },
                 values: new object[,]
                 {
-                    { 1, "A", new DateTime(2020, 11, 29, 15, 56, 41, 498, DateTimeKind.Local).AddTicks(8513), "Visitante" },
-                    { 2, "A", new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(199), "Asistente" },
-                    { 3, "A", new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(233), "Editor" },
-                    { 4, "A", new DateTime(2020, 11, 29, 15, 56, 41, 500, DateTimeKind.Local).AddTicks(237), "Administrador" }
+                    { 1, "A", new DateTime(2020, 11, 29, 18, 28, 23, 488, DateTimeKind.Local).AddTicks(773), "Visitante" },
+                    { 2, "A", new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6297), "Asistente" },
+                    { 3, "A", new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6341), "Editor" },
+                    { 4, "A", new DateTime(2020, 11, 29, 18, 28, 23, 489, DateTimeKind.Local).AddTicks(6344), "Administrador" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Usuarios",
                 columns: new[] { "Id", "Apellidos", "Direccion", "Edad", "Email", "Estado", "FechaCreacion", "FechaNacimiento", "Nombres", "Password", "RolesRolId", "Telefono", "Usuario" },
-                values: new object[] { 1, "Forero", "Calle 120 # 45 -67", 20, "tania.forero@arandasoft.com", "A", new DateTime(2020, 11, 29, 15, 56, 41, 508, DateTimeKind.Local).AddTicks(5428), new DateTime(2000, 11, 29, 15, 56, 41, 508, DateTimeKind.Local).AddTicks(2737), "Tania Lized", "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3", 4, "7563000", "admon" });
+                values: new object[] { 1, "Forero", "Calle 120 # 45 -67", 20, "tania.forero@arandasoft.com", "A", new DateTime(2020, 11, 29, 18, 28, 23, 498, DateTimeKind.Local).AddTicks(6542), new DateTime(2000, 11, 29, 18, 28, 23, 498, DateTimeKind.Local).AddTicks(3098), "Tania Lized", "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3", 4, "7563000", "admon" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Usuarios_RolesRolId",
@@ -76,6 +90,9 @@ namespace DataAccesLayer.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Acciones");
+
             migrationBuilder.DropTable(
                 name: "Usuarios");
 
