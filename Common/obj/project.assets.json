@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Common\\Common.csproj",
+      "projectPath": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Common\\obj\\",
+      "outputPath": "C:\\Pruebas\\ArandaSoft\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

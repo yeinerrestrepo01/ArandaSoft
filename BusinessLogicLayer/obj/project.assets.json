@@ -645,11 +645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "projectName": "BusinessLogicLayer",
-      "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectPath": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\BusinessLogicLayer\\obj\\",
+      "outputPath": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -665,14 +665,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Common\\Common.csproj"
+            "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj": {
+              "projectPath": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj"
             },
-            "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
-              "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\DataAccesLayer\\DataAccesLayer.csproj"
+            "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
+              "projectPath": "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj"
             },
-            "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Entities\\Entities.csproj"
+            "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj"
             }
           }
         }

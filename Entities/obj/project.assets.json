@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\Entities\\obj\\",
+      "outputPath": "C:\\Pruebas\\ArandaSoft\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

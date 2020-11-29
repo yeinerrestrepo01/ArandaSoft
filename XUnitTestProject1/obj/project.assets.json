@@ -3509,11 +3509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
+      "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
       "projectName": "ArandaSoftTest",
-      "projectPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
+      "projectPath": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
       "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\XUnitTestProject1\\obj\\",
+      "outputPath": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BbqF8lRJh6NqbZvFhgeykcZa4bclP7OiBgoRXrD6vzYcetFSmSwt7Tb1d9xSWAXJHkCHLcleW4waCMkJrZle/w==",
+  "dgSpecHash": "msslRwtutJNSB4HR6GSmdSDVOY6FLPOO8diHUw5GlBLaf9+h4FZ40ZKWfohSgku/Ujuqk1RkJKDEKXslAOqcmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
+  "projectFilePath": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

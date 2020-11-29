@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WsCNPKgBmvg+7Fkl7MWPkh3ANibHnR/x+Nv/NgVJE5Gccnox9vg6vk/IsK0XDhTy4PB4ck5byLmzRxhqk9z/Hg==",
+  "dgSpecHash": "SUFPJESJbPcjUlG6f+JoBRLqjTgakH2s1Ww1b5nEj5GJKoTL8v5qfZmiqQ8YcvNwAsFjE7abixTu+BNSgmVtqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PROFESIONAL\\source\\repos\\ArandsSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
