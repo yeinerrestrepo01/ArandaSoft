@@ -1,0 +1,8 @@
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

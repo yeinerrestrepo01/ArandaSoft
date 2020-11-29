@@ -1,0 +1,16 @@
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.deps.json
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\DataAccesLayer.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\DataAccesLayer.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\PROFESIONAL\source\repos\ArandsSoft\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.CopyComplete
