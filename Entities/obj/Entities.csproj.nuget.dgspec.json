@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {}
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\ArandaSoft\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

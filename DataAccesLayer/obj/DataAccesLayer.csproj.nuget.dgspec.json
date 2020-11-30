@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {}
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj": {
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\ArandaSoft\\Common\\obj\\",
+        "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj",
         "projectName": "DataAccesLayer",
-        "projectPath": "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj",
         "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\obj\\",
+        "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,11 +79,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj": {
-                "projectPath": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj"
+              "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj"
               },
-              "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj"
+              "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\ArandaSoft\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

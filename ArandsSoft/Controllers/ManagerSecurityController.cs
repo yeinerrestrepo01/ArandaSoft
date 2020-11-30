@@ -23,5 +23,11 @@ namespace ArandaSoft.Controllers
         {
             return Ok(_ManagerSecurity.Login(value));
         }
+        // GET api/<ManagerUsuariosController>/5
+        [HttpGet("{usuario}")]
+        public IActionResult Get(string usuario)
+        {
+            return Ok(_ManagerSecurity.PermissionUser(usuario));
+        }
     }
 }

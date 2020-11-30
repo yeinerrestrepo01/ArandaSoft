@@ -3,6 +3,7 @@ using DataAccesLayer;
 using Entities;
 using System.Linq;
 using Entities.DTO;
+using System.Collections.Generic;
 
 namespace BusinessLogicLayer
 {
@@ -18,7 +19,7 @@ namespace BusinessLogicLayer
 
         public ApiResult Login(UsuariosLogin Usuario)
         {
-            var UsuerValidation = _ArandaSoftContext.Usuarios.Where(u => u.Usuario == Usuario.Usuario && 
+            var UsuerValidation = _ArandaSoftContext.Usuarios.Where(u => u.Usuario == Usuario.Usuario &&
             u.Password == Security.GetSHA256(Usuario.Password)).Select(t => new UsuariosDto
             {
                 Nombres = t.Nombres,
@@ -32,7 +33,7 @@ namespace BusinessLogicLayer
                 FechaNacimiento = t.FechaNacimiento,
                 Edad = t.Edad,
                 Usuario = t.Usuario,
-                RolesRolId = t.RolesRolId
+                RolesRolId = t.RolesRolId,
             }).FirstOrDefault();
 
             if (UsuerValidation == null)
@@ -42,9 +43,26 @@ namespace BusinessLogicLayer
             }
             else
             {
+                UsuerValidation.ListPermission = new List<RoleAccionesDto>();
+                UsuerValidation.ListPermission.AddRange(PermissionUser(Usuario.Usuario));
                 _ApiResult.Result = UsuerValidation;
             }
             return _ApiResult;
+        }
+
+        public List<RoleAccionesDto> PermissionUser(string Usuario) 
+        {
+            var PermissionUser = (from usuario in _ArandaSoftContext.Usuarios
+                                  join rolaccion in _ArandaSoftContext.RolAcciones on usuario.RolesRolId equals rolaccion.RolesRolId
+                                  join accion in _ArandaSoftContext.Acciones on rolaccion.AccionesId equals accion.Id
+                                  where usuario.Usuario == Usuario
+                                  select new RoleAccionesDto
+                                  {
+                                      Descripcion = accion.Descripcion,
+                                      Router = rolaccion.Router
+                                  }).ToList();
+
+            return PermissionUser;
         }
     }
 }

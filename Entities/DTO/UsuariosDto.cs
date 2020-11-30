@@ -19,6 +19,7 @@ namespace Entities.DTO
         public int RolesRolId { get; set; }
         public string Estado { get; set; }
         public string Rol { get; set; }
+        public List<RoleAccionesDto> ListPermission { get; set; }
         public DateTime FechaCreacion { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LyaTp8GpUhmgOCDkzpgPu1pOZp0NklJ+TD6b/kXBSyuZxNmAwVI5UW8A3hUGL1voZDhUNbuBEDy90HrhGQ/kig==",
+  "dgSpecHash": "zdFMl44hT7LB+HzAHNcSksvLCNxNq7iRIjZd5MUN/yZCKiRZFmqrhg69b1GTuuPWIc8Xq5CRe9/T9elWFAB+Uw==",
   "success": true,
-  "projectFilePath": "C:\\Pruebas\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
+  "projectFilePath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

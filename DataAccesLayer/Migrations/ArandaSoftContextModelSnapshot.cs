@@ -50,6 +50,9 @@ namespace DataAccesLayer.Migrations
                     b.Property<int>("RolesRolId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Router")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AccionesId");
@@ -85,28 +88,28 @@ namespace DataAccesLayer.Migrations
                         {
                             RolId = 1,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 205, DateTimeKind.Local).AddTicks(1228),
+                            FechaCreacion = new DateTime(2020, 11, 29, 22, 12, 3, 129, DateTimeKind.Local).AddTicks(1181),
                             Nombre = "Visitante"
                         },
                         new
                         {
                             RolId = 2,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4913),
+                            FechaCreacion = new DateTime(2020, 11, 29, 22, 12, 3, 130, DateTimeKind.Local).AddTicks(5673),
                             Nombre = "Asistente"
                         },
                         new
                         {
                             RolId = 3,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4960),
+                            FechaCreacion = new DateTime(2020, 11, 29, 22, 12, 3, 130, DateTimeKind.Local).AddTicks(5711),
                             Nombre = "Editor"
                         },
                         new
                         {
                             RolId = 4,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4964),
+                            FechaCreacion = new DateTime(2020, 11, 29, 22, 12, 3, 130, DateTimeKind.Local).AddTicks(5715),
                             Nombre = "Administrador"
                         });
                 });
@@ -181,8 +184,8 @@ namespace DataAccesLayer.Migrations
                             Edad = 20,
                             Email = "tania.forero@arandasoft.com",
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 215, DateTimeKind.Local).AddTicks(8103),
-                            FechaNacimiento = new DateTime(2000, 11, 29, 21, 42, 5, 215, DateTimeKind.Local).AddTicks(4375),
+                            FechaCreacion = new DateTime(2020, 11, 29, 22, 12, 3, 139, DateTimeKind.Local).AddTicks(7474),
+                            FechaNacimiento = new DateTime(2000, 11, 29, 22, 12, 3, 139, DateTimeKind.Local).AddTicks(4331),
                             Nombres = "Tania Lized",
                             Password = "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
                             RolesRolId = 4,

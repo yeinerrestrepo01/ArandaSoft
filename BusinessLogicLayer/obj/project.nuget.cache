@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PE/t26i4OR+8KSHU4YR3M11o4SHjXBepryqF6mopxgVgFNs7tJ9UGxJnaqZQRRkwJqCh8C4E2kAyNht1Ps2fnQ==",
+  "dgSpecHash": "N06vrpbO7VZDskaU8dnUZRHyisDOS553z6QUAdOU5Hi84qKwSFqLPejBiWevTGEt/EWT5obx1B3CZ8xEMd/Tnw==",
   "success": true,
-  "projectFilePath": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\PROFESIONAL\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

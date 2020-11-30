@@ -5878,11 +5878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
+      "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
       "projectName": "ArandaSoft",
-      "projectPath": "C:\\Pruebas\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
+      "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\ArandsSoft\\ArandaSoft.csproj",
       "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Pruebas\\ArandaSoft\\ArandsSoft\\obj\\",
+      "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\ArandsSoft\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5898,17 +5898,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Pruebas\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             },
-            "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj": {
-              "projectPath": "C:\\Pruebas\\ArandaSoft\\Common\\Common.csproj"
+            "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Common\\Common.csproj"
             },
-            "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
-              "projectPath": "C:\\Pruebas\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj"
+            "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj": {
+              "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\DataAccesLayer\\DataAccesLayer.csproj"
             },
-            "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Pruebas\\ArandaSoft\\Entities\\Entities.csproj"
+            "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\Entities\\Entities.csproj"
             }
           }
         }

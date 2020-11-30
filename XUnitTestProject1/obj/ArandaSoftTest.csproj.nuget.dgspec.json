@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj": {}
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj": {}
   },
   "projects": {
-    "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj": {
+    "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
+        "projectUniqueName": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
         "projectName": "ArandaSoftTest",
-        "projectPath": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
+        "projectPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\XUnitTestProject1\\ArandaSoftTest.csproj",
         "packagesPath": "C:\\Users\\PROFESIONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\ArandaSoft\\XUnitTestProject1\\obj\\",
+        "outputPath": "C:\\Users\\PROFESIONAL\\Documents\\GitHub\\ArandaSoft\\XUnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROFESIONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",

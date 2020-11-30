@@ -13,6 +13,7 @@ namespace Entities
         public int Id { get; set; }
         public int RolesRolId { get; set; }
         public int AccionesId { get; set; }
+        public string Router { get; set; }
 
         public virtual Roles Roles { get; set; }
         public virtual Acciones Accione { get; set; }
