@@ -6,14 +6,15 @@ using System.Text;
 
 namespace Entities
 {
-    public class Acciones
+    public class RolAcciones
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Descripcion { get; set; }
-        public string Estado { get; set; }
+        public int RolesRolId { get; set; }
+        public int AccionesId { get; set; }
 
-        public virtual ICollection<RolAcciones> RolaAcciones { get; set; }
+        public virtual Roles Roles { get; set; }
+        public virtual Acciones Accione { get; set; }
     }
 }

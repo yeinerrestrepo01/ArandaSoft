@@ -16,7 +16,7 @@ namespace BusinessLogicLayer
             _ApiResult = new ApiResult { IsError = false, Message = Messages.SuccesFullOperation };
         }
 
-        public ApiResult Login(Usuarios Usuario)
+        public ApiResult Login(UsuariosLogin Usuario)
         {
             var UsuerValidation = _ArandaSoftContext.Usuarios.Where(u => u.Usuario == Usuario.Usuario && 
             u.Password == Security.GetSHA256(Usuario.Password)).Select(t => new UsuariosDto
@@ -38,6 +38,7 @@ namespace BusinessLogicLayer
             if (UsuerValidation == null)
             {
                 _ApiResult.IsError = true;
+                _ApiResult.Message = Messages.LoginError;
             }
             else
             {

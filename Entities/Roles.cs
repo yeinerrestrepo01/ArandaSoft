@@ -19,6 +19,7 @@ namespace Entities
         [Column(TypeName = "datetime")]
         public DateTime FechaCreacion { get; set; }
         public virtual ICollection<Usuarios> Usuarios { get; set; }
+        public virtual ICollection<RolAcciones> RolaAcciones { get; set; }
 
     }
 }

@@ -189,3 +189,4 @@ C:\Pruebas\ArandaSoft\XUnitTestProject1\obj\Debug\netcoreapp3.1\ArandaSoftTest.c
 C:\Pruebas\ArandaSoft\XUnitTestProject1\obj\Debug\netcoreapp3.1\ArandaSoftTest.dll
 C:\Pruebas\ArandaSoft\XUnitTestProject1\obj\Debug\netcoreapp3.1\ArandaSoftTest.pdb
 C:\Pruebas\ArandaSoft\XUnitTestProject1\obj\Debug\netcoreapp3.1\ArandaSoftTest.genruntimeconfig.cache
+C:\Pruebas\ArandaSoft\XUnitTestProject1\obj\Debug\netcoreapp3.1\ArandaSoftTest.csprojAssemblyReference.cache

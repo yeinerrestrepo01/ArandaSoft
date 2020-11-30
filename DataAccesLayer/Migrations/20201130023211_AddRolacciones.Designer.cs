@@ -4,14 +4,16 @@ using DataAccesLayer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataAccesLayer.Migrations
 {
     [DbContext(typeof(ArandaSoftContext))]
-    partial class ArandaSoftContextModelSnapshot : ModelSnapshot
+    [Migration("20201130023211_AddRolacciones")]
+    partial class AddRolacciones
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,7 +39,7 @@ namespace DataAccesLayer.Migrations
                     b.ToTable("Acciones");
                 });
 
-            modelBuilder.Entity("Entities.RolAcciones", b =>
+            modelBuilder.Entity("Entities.RolaAcciones", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -56,7 +58,7 @@ namespace DataAccesLayer.Migrations
 
                     b.HasIndex("RolesRolId");
 
-                    b.ToTable("RolAcciones");
+                    b.ToTable("RolaAcciones");
                 });
 
             modelBuilder.Entity("Entities.Roles", b =>
@@ -85,28 +87,28 @@ namespace DataAccesLayer.Migrations
                         {
                             RolId = 1,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 205, DateTimeKind.Local).AddTicks(1228),
+                            FechaCreacion = new DateTime(2020, 11, 29, 21, 32, 10, 577, DateTimeKind.Local).AddTicks(8950),
                             Nombre = "Visitante"
                         },
                         new
                         {
                             RolId = 2,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4913),
+                            FechaCreacion = new DateTime(2020, 11, 29, 21, 32, 10, 579, DateTimeKind.Local).AddTicks(3237),
                             Nombre = "Asistente"
                         },
                         new
                         {
                             RolId = 3,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4960),
+                            FechaCreacion = new DateTime(2020, 11, 29, 21, 32, 10, 579, DateTimeKind.Local).AddTicks(3282),
                             Nombre = "Editor"
                         },
                         new
                         {
                             RolId = 4,
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 206, DateTimeKind.Local).AddTicks(4964),
+                            FechaCreacion = new DateTime(2020, 11, 29, 21, 32, 10, 579, DateTimeKind.Local).AddTicks(3285),
                             Nombre = "Administrador"
                         });
                 });
@@ -181,8 +183,8 @@ namespace DataAccesLayer.Migrations
                             Edad = 20,
                             Email = "tania.forero@arandasoft.com",
                             Estado = "A",
-                            FechaCreacion = new DateTime(2020, 11, 29, 21, 42, 5, 215, DateTimeKind.Local).AddTicks(8103),
-                            FechaNacimiento = new DateTime(2000, 11, 29, 21, 42, 5, 215, DateTimeKind.Local).AddTicks(4375),
+                            FechaCreacion = new DateTime(2020, 11, 29, 21, 32, 10, 587, DateTimeKind.Local).AddTicks(9666),
+                            FechaNacimiento = new DateTime(2000, 11, 29, 21, 32, 10, 587, DateTimeKind.Local).AddTicks(6190),
                             Nombres = "Tania Lized",
                             Password = "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
                             RolesRolId = 4,
@@ -191,7 +193,7 @@ namespace DataAccesLayer.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Entities.RolAcciones", b =>
+            modelBuilder.Entity("Entities.RolaAcciones", b =>
                 {
                     b.HasOne("Entities.Acciones", "Accione")
                         .WithMany("RolaAcciones")

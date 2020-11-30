@@ -14,4 +14,3 @@ C:\Pruebas\ArandaSoft\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
 C:\Pruebas\ArandaSoft\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Pruebas\ArandaSoft\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Pruebas\ArandaSoft\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
-C:\Pruebas\ArandaSoft\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache

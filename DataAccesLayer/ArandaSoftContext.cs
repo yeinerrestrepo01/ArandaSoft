@@ -14,6 +14,7 @@ namespace DataAccesLayer
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Acciones> Acciones { get; set; }
+        public DbSet<RolAcciones> RolAcciones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
